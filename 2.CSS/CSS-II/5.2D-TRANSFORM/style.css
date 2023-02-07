@@ -1,0 +1,8 @@
+p{
+    background-color: deepskyblue;
+    transform: translate(150px,300px);/*(x,y)axis*/
+    /* transform: rotate(-45deg);+ve clockwise and -ve anticlockwise */
+    margin: 100px;
+    transform: scale(1,5);
+    transform: skew(45deg);
+}

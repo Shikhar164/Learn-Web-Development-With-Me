@@ -1,0 +1,27 @@
+.container{
+    width: 1400px;
+    height: 600px;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    border: solid black;
+    gap: 10px;
+}
+
+.box{
+    background-color: chartreuse;
+    border: solid black;
+}
+
+#box1{
+    background-color: crimson;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    grid-area: 1/1/3/4;/*---grid area: row start/column start/row end/column end--- */
+}

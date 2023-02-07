@@ -1,0 +1,19 @@
+div{
+    height:110px;
+    width: 200px;
+    background-color: slateblue;
+    border: solid black;
+}
+
+/* When the perspective property is set to a value of 10px, it means that the distance between the viewer and the 3D object is set to 10 pixels. This value determines the distance between the viewer and the 3D space and it affects how the object is perceived by the viewer.When the perspective value is set to a low value, such as 10px, it creates a subtle 3D effect, as the viewer is very close to the 3D object. This can be useful for creating small, subtle 3D effects, such as a slight drop shadow or slight rotation.*/
+.box1{
+    transform:perspective(100px) translateZ(-100px) ;
+}
+
+.box2{
+    transform: perspective(1000px) scaleZ(5) rotateX(180deg) rotateY(45deg);
+}
+
+.box{
+    transform: rotateZ(-30deg);
+}

@@ -1,0 +1,20 @@
+.container{
+    background-color: deepskyblue;
+    border: solid black;
+    display: grid;
+    grid-auto-rows: minmax(200px,auto);
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+
+    /* TO ARRANGE IN COLUMNS  */
+    /* grid-auto-flow: column;   */
+    /* THIS IS FOR APPLY WIDTH WHEN THERE IS NO WIDTH DECLARE FIRST */
+    /* grid-auto-columns: 50px; */
+}
+
+.box{
+    background-color: darkgrey;
+    border: solid black;
+    /* width: 200px;
+    height: 100px; */
+}
