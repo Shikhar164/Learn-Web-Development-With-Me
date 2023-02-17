@@ -1,0 +1,40 @@
+.container{
+    background-color: darkred;
+    width: 470px;
+    border: solid black;
+    height: 690px;
+    display: grid;
+    padding: 15px;
+
+    grid-template-rows: 30px 300px 300px 30px;
+    grid-template-columns: 450px;
+
+    grid-template-areas: 
+    "hd"
+    "side"
+    "ct"
+    "ft";
+
+    grid-gap: 10px;
+}
+
+.box{
+    background-color: rgb(255, 222, 222);
+    border: solid black;
+}
+
+#header{
+    grid-area: hd;
+}
+
+#footer{
+    grid-area: ft;
+}
+
+#sidebar{
+    grid-area: side;
+}
+
+#content{
+    grid-area: ct;
+}
