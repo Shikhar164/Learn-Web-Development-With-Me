@@ -1,0 +1,27 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: slateblue;
+    border: solid black;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: royalblue;
+    border: solid black;
+    margin: 10px;
+    text-align: center;
+    transition-property: transform;
+    transition-duration: 4s;
+    transition-delay: 1s;
+
+    /* TRANSITION SHORTHAND PROPERTY */
+    /* transition:background-color 3s ease-in-out 1s; */
+    
+}
+
+.box:hover{
+    transform: rotate(45deg);
+    background-color: darkmagenta;
+}

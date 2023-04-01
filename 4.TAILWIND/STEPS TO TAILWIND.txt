@@ -1,0 +1,16 @@
+1.INSTALL NODE
+2.RUN COMMANDS
+	npm init -y //THIS INITIALZES THE DIRECTORY AS A NODEJS PROJECT
+	npm install -D tailwindcss postcss autoprefixer vite //INSTALLS REQUIRED PACKAGES
+	npx tailwindcss init -p
+3.INSTALL TAILWIND CSS INTERLLISENSE EXTENSION
+4.ADD * IN content
+5.ADD scripts IN package.json
+	"scripts":{
+		"start":"vite"
+		},
+6.CREATE main.css or style.css AND INSERT AND LINK:
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+7.npm run start

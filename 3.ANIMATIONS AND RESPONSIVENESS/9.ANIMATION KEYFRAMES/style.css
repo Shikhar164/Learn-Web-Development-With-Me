@@ -1,0 +1,43 @@
+.container{
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    border: solid black;
+}
+
+.box{
+    width: 500px;
+    height: 300px;
+    background-color: darkslategray;
+    border: solid black;
+
+    animation-name: shikhar;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 3s;
+    animation-iteration-count: 4;
+}
+
+/* @keyframes shikhar{
+    from{
+        width: 300px;
+    }
+    to{
+        width: 100%;
+    }
+} */
+
+@keyframes shikhar{
+    0%{
+        background-color: violet;
+        width: 450px;
+    }
+    50%{
+        background-color: aqua;
+        width: 900px;
+    }
+    100%{
+        background-color: blue;
+        width: 100%;
+    }
+}

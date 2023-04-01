@@ -58,7 +58,7 @@
 .box{
     border: 1px solid black;
     background-color: aquamarine;
-    /* width: 50px; 	 */
+    /* width: 1080px; 	 */
     /* TAKES THE REMAINING WIDTH (CAN APPLY TO INDIVIDUAL BOX) */
     /* flex-grow: 1; */
 }
