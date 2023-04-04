@@ -77,6 +77,17 @@ jump();
 // let newarr=arr.reduce((accumulator,currentValue)=>accumulator+currentValue,0)
 // console.log(newarr)
 
+// INTERESTING QUESTION
+let x=10;
+const y={
+    x:20,
+    z(){
+        console.log(this.x)
+    }
+}
+let z=y.z;
+z();
+
 
 
 
