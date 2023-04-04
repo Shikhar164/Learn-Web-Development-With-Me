@@ -4,7 +4,11 @@
 	npm install -D tailwindcss postcss autoprefixer vite //INSTALLS REQUIRED PACKAGES
 	npx tailwindcss init -p
 3.INSTALL TAILWIND CSS INTERLLISENSE EXTENSION
+<<<<<<< HEAD
 4.ADD * IN content in tailwind.config.css.
+=======
+4.ADD * IN content in tailwind.config.css
+>>>>>>> b03f9d8a13a0f1ef7bf915e13e664c192acfdf36
 5.ADD scripts IN package.json
 	"scripts":{
 		"start":"vite"
