@@ -99,27 +99,40 @@ console.log(rectangle6);*/
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~FOR LOOPS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/*let rectangle7={
+const arr=[1,2,3,4,5]
+
+//for of loop iterates through values of array
+for(let key of arr){
+    console.log(key)
+}
+
+//for in loop iterates through index of array
+for(let key in arr){
+    console.log(key)
+}
+
+let rectangle7={
     length:13,
     breadth:14
-};*/
+};
+
 
 // for in loop : It is used to loop through keys in objects.
-/*for(let key in rectangle7){
+for(let key in rectangle7){
     console.log(key,rectangle7[key]);
-}*/
+}
 
 // for of loop : It is used only on iterables like arrays,maps,strings but objects are not iterables but we can apply on it by using hack
 
 // Object.keys(objectName)-->gives keys in object
-/*for(let key of Object.keys(rectangle7)){
+for(let key of Object.keys(rectangle7)){
     console.log(key);
 }
 
 // Object.enteries(objectName)-->gives keys-value pairs of object
-for(let key of Object.entries(rectangle7)){
-    console.log(key);
-}*/
+// for(let key of Object.entries(rectangle7)){
+//     console.log(key);
+// }
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ TO CHECK AN OBJECT'S PROPERTY IS IN OBJECT OR NOT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -168,7 +181,7 @@ console.log(src);
 console.log(dest);*/
 
 //-------------Method 3 -> Spread  -------------
-let dest={...src};
-src.value1++;
-console.log(src);
-console.log(dest);
+// let dest={...src};
+// src.value1++;
+// console.log(src);
+// console.log(dest);
