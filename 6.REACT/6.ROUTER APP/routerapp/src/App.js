@@ -29,7 +29,7 @@ function App() {
       </nav>
 
       <Routes>
-      {/* MainHeader is the parent Element -->Nested Routing   MainHeader is the parent Router element but it disable all the elements to show its path--->So use <Outlet/> tag in parent Router Element here it is MainHeader*/}
+      {/* MainHeader is the parent Element -->Nested Routing   MainHeader is the parent Router element but it disable all the elements to show its path--->So use <Outlet/> tag in parent Router Element here it is MainHeader */}
         <Route path='/' element={<MainHeader/>}>
           {/* Default Route*/}
           <Route index element={<Home/>}/>
