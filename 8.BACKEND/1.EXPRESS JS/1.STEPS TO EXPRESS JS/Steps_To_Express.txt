@@ -1,0 +1,6 @@
+Step-1.Create a folder.
+Step-2.Move to that folder.
+Step-3.Run command: npm init -y //creates a package.json file
+Step-4.Run command: npm i express//creates node modules
+Step-5.Create server.js file 
+Step-6.Run command: node server.js
